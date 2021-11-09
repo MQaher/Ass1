@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/moeaw/Desktop/Android_App/Assignment1/app/src/main/res/layout/activity_abs_workout.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/moeaw/Desktop/Android_App/Assignment1/app/src/main/res/layout/activity_biceps_chest_workout.xml" value="0.264" />
+        <entry key="..\:/Users/moeaw/Desktop/Android_App/Assignment1/app/src/main/res/layout/activity_full_body_workout.xml" value="0.176" />
+        <entry key="..\:/Users/moeaw/Desktop/Android_App/Assignment1/app/src/main/res/layout/activity_healthy.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/moeaw/Desktop/Android_App/Assignment1/app/src/main/res/layout/activity_lower_body_workout.xml" value="0.24110671936758893" />
+        <entry key="..\:/Users/moeaw/Desktop/Android_App/Assignment1/app/src/main/res/layout/activity_main.xml" value="0.25197541703248466" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
