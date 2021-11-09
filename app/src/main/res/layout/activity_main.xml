@@ -20,13 +20,6 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <Button
-                android:id="@+id/button3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:onClick="onClickBMI"
-                android:text="BMI" />
-
             <ImageView
                 android:id="@+id/imageView"
                 android:layout_width="wrap_content"
@@ -53,6 +46,22 @@
                 android:text="Lets get started which kind of workout you want to start with??"
                 android:textColor="#FAF8F8"
                 android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Lets Calculate Your BMI :"
+                android:textColor="#F4F1F1"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickBMI"
+                android:text="BMI" />
 
             <ImageButton
                 android:id="@+id/imageView2"
@@ -142,6 +151,13 @@
                 android:text="ABS workout"
                 android:textColor="#FDFCFC"
                 android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickFoodSupplements"
+                android:text="Food Supplements" />
 
 
         </LinearLayout>

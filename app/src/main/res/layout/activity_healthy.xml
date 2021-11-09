@@ -1,34 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#1B0069"
+    android:backgroundTint="#0C0C0C"
     tools:context=".healthy">
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#1B0069"
         tools:ignore="SpeakableTextPresentCheck">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="BMI"
+                android:textColor="#FAF8F8"
+                android:textSize="60dp" />
 
             <EditText
                 android:id="@+id/edtWeight"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
+                android:background="@color/white"
+                android:backgroundTint="#FDFBFB"
                 android:ems="10"
+                android:gravity="center"
                 android:hint="Weight"
                 android:inputType="textPersonName" />
 
             <EditText
                 android:id="@+id/edtHeight"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:background="#F3F2F2"
                 android:ems="10"
+                android:gravity="center"
                 android:hint="Height"
                 android:inputType="textPersonName"
                 tools:ignore="TouchTargetSizeCheck" />
@@ -37,6 +55,7 @@
                 android:id="@+id/button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
                 android:onClick="onClickBMI"
                 android:text="BMI" />
 
@@ -44,8 +63,9 @@
                 android:id="@+id/button2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="#1B0069"
                 android:onClick="onClickSave"
                 android:text="Save" />
         </LinearLayout>
     </ScrollView>
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

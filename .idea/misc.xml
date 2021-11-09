@@ -3,12 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/moeaw/Desktop/Android_App/Assignment1/app/src/main/res/layout/activity_abs_workout.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/moeaw/Desktop/Android_App/Assignment1/app/src/main/res/layout/activity_abs_workout.xml" value="0.264" />
         <entry key="..\:/Users/moeaw/Desktop/Android_App/Assignment1/app/src/main/res/layout/activity_biceps_chest_workout.xml" value="0.264" />
         <entry key="..\:/Users/moeaw/Desktop/Android_App/Assignment1/app/src/main/res/layout/activity_full_body_workout.xml" value="0.176" />
-        <entry key="..\:/Users/moeaw/Desktop/Android_App/Assignment1/app/src/main/res/layout/activity_healthy.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/moeaw/Desktop/Android_App/Assignment1/app/src/main/res/layout/activity_healthy.xml" value="0.3736979166666667" />
+        <entry key="..\:/Users/moeaw/Desktop/Android_App/Assignment1/app/src/main/res/layout/activity_healthy_things.xml" value="0.4" />
         <entry key="..\:/Users/moeaw/Desktop/Android_App/Assignment1/app/src/main/res/layout/activity_lower_body_workout.xml" value="0.24110671936758893" />
-        <entry key="..\:/Users/moeaw/Desktop/Android_App/Assignment1/app/src/main/res/layout/activity_main.xml" value="0.25197541703248466" />
+        <entry key="..\:/Users/moeaw/Desktop/Android_App/Assignment1/app/src/main/res/layout/activity_main.xml" value="0.4" />
       </map>
     </option>
   </component>

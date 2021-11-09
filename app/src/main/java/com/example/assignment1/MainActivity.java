@@ -39,4 +39,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this,healthy.class);
         startActivity(intent);
     }
+
+    public void onClickFoodSupplements(View view) {
+        Intent intent = new Intent(this,Healthy_Things.class);
+        startActivity(intent);
+    }
 }
